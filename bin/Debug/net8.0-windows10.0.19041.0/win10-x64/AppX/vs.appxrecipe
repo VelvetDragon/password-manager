@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-30T07:09:05.308</Modified>
+      <Modified>2024-10-30T08:56:58.834</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-30T06:38:30.803</Modified>
+      <Modified>2024-10-30T07:25:58.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Password Manager.runtimeconfig.json">
       <PackagePath>Password Manager.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Password Manager.dll">
       <PackagePath>Password Manager.dll</PackagePath>
-      <Modified>2024-10-30T07:09:04.457</Modified>
+      <Modified>2024-10-30T08:56:58.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Password Manager.exe</PackagePath>
-      <Modified>2024-10-30T07:09:04.501</Modified>
+      <Modified>2024-10-30T08:56:58.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Password Manager.deps.json">
       <PackagePath>Password Manager.deps.json</PackagePath>
-      <Modified>2024-10-30T06:38:30.606</Modified>
+      <Modified>2024-10-30T07:25:57.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
