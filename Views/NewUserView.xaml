@@ -3,7 +3,83 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Password_Manager.Views.NewUserView"
              Title="NewUserView">
-    <VerticalStackLayout>
-        <Label
+
+
+    <VerticalStackLayout Padding="20">
+
+
+        <Label Text="Welcome to Password Manager!"
+               FontSize="28"
+               HorizontalOptions="Center"
+               TextColor="White"
+               Margin="0,20"/>
+
+
+        <Border  
+            Padding="20" 
+            Margin="0,20" 
+            BackgroundColor="#292929"
+            WidthRequest="400">
+
+            <VerticalStackLayout Spacing="15">
+
+
+                <Label x:Name="ErrorMessage"
+                       Text="Please complete all fields"
+                       TextColor="Red" 
+                       IsVisible="False"
+                       HorizontalOptions="Center"/>
+
+
+                <Entry Placeholder="First Name" 
+                       x:Name="FirstNameEntry" 
+                       TextColor="White" 
+                       PlaceholderColor="Gray" 
+                       Margin="0,5"/>
+
+                <Entry Placeholder="Last Name" 
+                       x:Name="LastNameEntry" 
+                       TextColor="White" 
+                       PlaceholderColor="Gray" 
+                       Margin="0,5"/>
+
+                <Entry Placeholder="Username" 
+                       x:Name="UsernameEntry" 
+                       TextColor="White" 
+                       PlaceholderColor="Gray" 
+                       Margin="0,5"/>
+
+                <Entry Placeholder="Password" 
+                       x:Name="PasswordEntry" 
+                       IsPassword="True" 
+                       TextColor="White" 
+                       PlaceholderColor="Gray" 
+                       Margin="0,5"/>
+
+                <Entry Placeholder="Re-Enter Password" 
+                       x:Name="ReEnterPasswordEntry" 
+                       IsPassword="True" 
+                       TextColor="White" 
+                       PlaceholderColor="Gray" 
+                       Margin="0,5"/>
+
+                <Button Text="Create Account"
+                        BackgroundColor="#b48dff"
+                        TextColor="Black"
+                        CornerRadius="5"
+                        Margin="0,15"
+                        HeightRequest="40"
+                        WidthRequest="300"
+                        Clicked="btnClicked"/>
+
+                <Button Text="Already have an account? Log In"
+                        BackgroundColor="Transparent"
+                        TextColor="#b48dff"
+                        Clicked="OnGoToLoginClicked"
+                        HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+        </Border>
+
     </VerticalStackLayout>
 </ContentPage>
