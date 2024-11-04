@@ -2,10 +2,10 @@ namespace Password_Manager.Views;
 
 public partial class LoginView : ContentPage
 {
-	public LoginView()
-	{
-		InitializeComponent();
-	}
+    public LoginView()
+    {
+        InitializeComponent();
+    }
 
     private async void btnLoginClicked(object sender, EventArgs e)
     {

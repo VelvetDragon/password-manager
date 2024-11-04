@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-30T08:56:58.834</Modified>
+      <Modified>2024-11-04T21:20:40.923</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Password Manager.dll">
       <PackagePath>Password Manager.dll</PackagePath>
-      <Modified>2024-10-30T08:56:58.210</Modified>
+      <Modified>2024-11-04T21:20:40.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Password Manager.exe</PackagePath>
-      <Modified>2024-10-30T08:56:58.213</Modified>
+      <Modified>2024-11-04T21:20:40.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\su1qt\Desktop\Assignments\Fall 2024\CSC 317\Password Manager\Password Manager\Password Manager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -4,33 +4,42 @@
              x:Class="Password_Manager.Views.NewUserView"
              Title="NewUserView">
 
+    <!-- 
+    Program Author: Suwan Aryal
+    USM ID: w10168297
+    Assignment: Password Manager, Part 1, Front-End
+
+    Description:
+    This XAML file defines the New User View for creating an account in the Password Manager app.
+    -->
 
     <VerticalStackLayout Padding="20">
 
-
+        <!-- Label to display "welcome to passowrd manager" -->
         <Label Text="Welcome to Password Manager!"
                FontSize="28"
                HorizontalOptions="Center"
                TextColor="White"
                Margin="0,20"/>
 
-
+        <!-- Container of the form -->
+        <!-- colors are picked from color picker tool -->
         <Border  
             Padding="20" 
             Margin="0,20" 
-            BackgroundColor="#292929"
+            BackgroundColor="#292929"  
             WidthRequest="400">
 
             <VerticalStackLayout Spacing="15">
 
-
+                <!-- Error message -->
                 <Label x:Name="ErrorMessage"
                        Text="Please complete all fields"
                        TextColor="Red" 
                        IsVisible="False"
                        HorizontalOptions="Center"/>
 
-
+                <!-- input fields -->
                 <Entry Placeholder="First Name" 
                        x:Name="FirstNameEntry" 
                        TextColor="White" 
@@ -72,6 +81,7 @@
                         WidthRequest="300"
                         Clicked="btnClicked"/>
 
+                <!-- link to login page -->
                 <Button Text="Already have an account? Log In"
                         BackgroundColor="Transparent"
                         TextColor="#b48dff"
