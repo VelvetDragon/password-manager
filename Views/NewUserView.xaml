@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Password_Manager.Views.NewUserView"
-             Title="NewUserView">
+             Title="NewUserView"
+             BackgroundColor="#ECE5D8">
 
     <!-- 
     Program Author: Suwan Aryal
@@ -19,7 +20,7 @@
         <Label Text="Welcome to Password Manager!"
                FontSize="28"
                HorizontalOptions="Center"
-               TextColor="White"
+               TextColor="#D35400"
                Margin="0,20"/>
 
         <!-- Container of the form -->
@@ -27,7 +28,7 @@
         <Border  
             Padding="20" 
             Margin="0,20" 
-            BackgroundColor="#292929"  
+            BackgroundColor="#FDF6E3"  
             WidthRequest="400">
 
             <VerticalStackLayout Spacing="15">
@@ -40,40 +41,50 @@
                        HorizontalOptions="Center"/>
 
                 <!-- input fields -->
-                <Entry Placeholder="First Name" 
-                       x:Name="FirstNameEntry" 
-                       TextColor="White" 
-                       PlaceholderColor="Gray" 
-                       Margin="0,5"/>
+                <Frame BorderColor="#D4A373" CornerRadius="5" Padding="0" BackgroundColor="Transparent">
+                    <Entry Placeholder="First Name" 
+                           x:Name="FirstNameEntry" 
+                           TextColor="Black" 
+                           PlaceholderColor="#A89D91" 
+                           Margin="0,5"/>
+                </Frame>
 
-                <Entry Placeholder="Last Name" 
+                <Frame BorderColor="#D4A373" CornerRadius="5" Padding="0" BackgroundColor="Transparent">
+                    <Entry Placeholder="Last Name" 
                        x:Name="LastNameEntry" 
-                       TextColor="White" 
-                       PlaceholderColor="Gray" 
+                       TextColor="Black" 
+                       PlaceholderColor="#A89D91" 
                        Margin="0,5"/>
+                </Frame>
 
-                <Entry Placeholder="Username" 
+                <Frame BorderColor="#D4A373" CornerRadius="5" Padding="0" BackgroundColor="Transparent">
+                    <Entry Placeholder="Username" 
                        x:Name="UsernameEntry" 
-                       TextColor="White" 
-                       PlaceholderColor="Gray" 
+                       TextColor="Black" 
+                       PlaceholderColor="#A89D91" 
                        Margin="0,5"/>
+                </Frame>
 
-                <Entry Placeholder="Password" 
+                <Frame BorderColor="#D4A373" CornerRadius="5" Padding="0" BackgroundColor="Transparent">
+                    <Entry Placeholder="Password" 
                        x:Name="PasswordEntry" 
                        IsPassword="True" 
-                       TextColor="White" 
-                       PlaceholderColor="Gray" 
+                       TextColor="Black" 
+                       PlaceholderColor="#A89D91" 
                        Margin="0,5"/>
+                </Frame>
 
-                <Entry Placeholder="Re-Enter Password" 
+                <Frame BorderColor="#D4A373" CornerRadius="5" Padding="0" BackgroundColor="Transparent">
+                    <Entry Placeholder="Re-Enter Password" 
                        x:Name="ReEnterPasswordEntry" 
                        IsPassword="True" 
-                       TextColor="White" 
-                       PlaceholderColor="Gray" 
+                       TextColor="Black" 
+                       PlaceholderColor="#A89D91" 
                        Margin="0,5"/>
+                </Frame>
 
                 <Button Text="Create Account"
-                        BackgroundColor="#b48dff"
+                        BackgroundColor="#D35400"
                         TextColor="Black"
                         CornerRadius="5"
                         Margin="0,15"
@@ -84,7 +95,7 @@
                 <!-- link to login page -->
                 <Button Text="Already have an account? Log In"
                         BackgroundColor="Transparent"
-                        TextColor="#b48dff"
+                        TextColor="#D35400"
                         Clicked="OnGoToLoginClicked"
                         HorizontalOptions="Center"/>
 
